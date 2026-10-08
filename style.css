@@ -70,6 +70,7 @@ nav{display:flex;align-items:center;justify-content:space-between;height:68px}
 .cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
 .frame{position:relative;aspect-ratio:4/5;max-width:380px;margin-inline:auto;width:100%}
 .frame .in{position:absolute;inset:0;border-radius:200px 200px 24px 24px;border:1px solid var(--gold);padding:10px;background:linear-gradient(160deg,rgba(90,15,27,.5),rgba(5,5,5,.5));backdrop-filter:blur(8px);box-shadow:0 30px 80px rgba(90,15,27,.6),0 0 60px rgba(212,175,55,.12)}
+.frame .hero-portrait{width:100%;height:100%;display:block;object-fit:cover;object-position:center 30%;border-radius:190px 190px 16px 16px}
 .frame .ph{width:100%;height:100%;border-radius:190px 190px 16px 16px;background:radial-gradient(circle at 50% 30%,var(--wine),var(--deep) 60%,#000);display:grid;place-items:center;font:800 clamp(5rem,12vw,8rem) var(--h);overflow:hidden}
 .chip{position:absolute;padding:8px 14px;border-radius:12px;font:600 .8rem var(--b);background:rgba(17,17,17,.7);border:1px solid var(--line);backdrop-filter:blur(10px);display:flex;gap:8px;align-items:center;color:var(--gold);z-index:3}
 .scroll{position:absolute;bottom:26px;left:50%;translate:-50% 0;z-index:3;width:24px;height:40px;border:1px solid var(--gold);border-radius:14px}
